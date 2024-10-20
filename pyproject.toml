@@ -3,6 +3,7 @@ name = "essai_poetry"
 version = "0.0.1"
 description = "This is a template repository for Python projects that use Poetry for their dependency management."
 authors = ["Daniel Thonon <d.thonon9@outlook.com>"]
+license = "GPL-3.0-or-later"
 homepage = "https://github.com/dthonon/essai-poetry"
 repository = "https://github.com/dthonon/essai-poetry"
 documentation = "https://dthonon.github.io/essai-poetry/"
@@ -13,7 +14,7 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
 ]
 
-packages = [{ include = "essai_poetry" }]
+#packages = [{ include = "essai_poetry" }]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<4.0"
